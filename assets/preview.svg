@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 500" width="920" height="500" role="img" aria-label="quantum-safe-wallet architecture and firewall preview">
+  <rect width="920" height="500" fill="#0B0B0E" />
+  <rect x="1" y="1" width="918" height="498" rx="10" fill="none" stroke="#26262E" stroke-width="1" />
+
+  <!-- Top Header Bar -->
+  <rect x="20" y="18" width="880" height="44" rx="6" fill="#141418" stroke="#26262E" stroke-width="1" />
+  <text x="36" y="45" fill="#FFFFFF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" font-weight="700">quantum-safe-wallet</text>
+  <text x="222" y="45" fill="#71717A" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="12">v1.0.0 // node &gt;= 20 // 0 npm deps</text>
+
+  <rect x="598" y="28" width="112" height="24" rx="4" fill="#141418" stroke="#26262E" stroke-width="1" />
+  <text x="654" y="44" text-anchor="middle" fill="#E4E4E7" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11">AES-256-GCM</text>
+
+  <rect x="720" y="28" width="166" height="24" rx="4" fill="#FFFFFF" />
+  <text x="803" y="44" text-anchor="middle" fill="#000000" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="700">WOTS+ / XMSS ACTIVE</text>
+
+  <!-- Left Panel: Post-Quantum Vault State -->
+  <rect x="20" y="76" width="432" height="404" rx="8" fill="#141418" stroke="#26262E" stroke-width="1" />
+  <text x="36" y="102" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="700" letter-spacing="0.4">POST-QUANTUM VAULT // WOTS+ (w=16) + XMSS</text>
+  <line x1="36" y1="114" x2="436" y2="114" stroke="#26262E" stroke-width="1" />
+
+  <!-- Vault Key-Value Rows -->
+  <text x="36" y="138" fill="#A1A1AA" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11">XMSS MERKLE ROOT</text>
+  <text x="176" y="138" fill="#E4E4E7" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11">cfdccbfd0d5b8731...3487c055f</text>
+
+  <text x="36" y="160" fill="#A1A1AA" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11">HASH-LOCKED PDA</text>
+  <text x="176" y="160" fill="#FFFFFF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11">5gUrJPnMQXWnb9tr...Mvid2mk</text>
+
+  <text x="36" y="182" fill="#A1A1AA" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11">PDA KEY MODEL</text>
+  <text x="176" y="182" fill="#E4E4E7" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11">SHOR-IMMUNE (NO ED25519 PRIVKEY)</text>
+
+  <text x="36" y="204" fill="#A1A1AA" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11">MONOTONIC OTS</text>
+  <text x="176" y="204" fill="#FFFFFF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11">sigSeq = 0 -&gt; 1 (window: +1024)</text>
+
+  <!-- 67-Chain Visualizer Box -->
+  <rect x="36" y="220" width="400" height="106" rx="6" fill="#0B0B0E" stroke="#26262E" stroke-width="1" />
+  <text x="48" y="240" fill="#E4E4E7" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="600">67 HASH CHAINS = 64 MSG + 3 INVERSE CHECKSUM (2,144B)</text>
+  <text x="48" y="256" fill="#71717A" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10">subtree H=4 (16 leaves) | 4-node Merkle auth path (128B)</text>
+
+  <!-- Monochrome Hash Step Bars -->
+  <g fill="#E4E4E7">
+    <rect x="48" y="274" width="6" height="32" />
+    <rect x="59" y="284" width="6" height="22" fill="#A1A1AA" />
+    <rect x="70" y="268" width="6" height="38" />
+    <rect x="81" y="290" width="6" height="16" fill="#71717A" />
+    <rect x="92" y="276" width="6" height="30" />
+    <rect x="103" y="270" width="6" height="36" />
+    <rect x="114" y="286" width="6" height="20" fill="#A1A1AA" />
+    <rect x="125" y="278" width="6" height="28" />
+    <rect x="136" y="266" width="6" height="40" />
+    <rect x="147" y="288" width="6" height="18" fill="#71717A" />
+    <rect x="158" y="272" width="6" height="34" />
+    <rect x="169" y="282" width="6" height="24" fill="#A1A1AA" />
+    <rect x="180" y="269" width="6" height="37" />
+    <rect x="191" y="285" width="6" height="21" fill="#A1A1AA" />
+    <rect x="202" y="275" width="6" height="31" />
+    <rect x="213" y="292" width="6" height="14" fill="#71717A" />
+    <rect x="224" y="270" width="6" height="36" />
+    <rect x="235" y="280" width="6" height="26" fill="#A1A1AA" />
+    <rect x="246" y="267" width="6" height="39" />
+    <rect x="257" y="284" width="6" height="22" fill="#A1A1AA" />
+    <rect x="268" y="273" width="6" height="33" />
+    <rect x="279" y="289" width="6" height="17" fill="#71717A" />
+    <rect x="290" y="271" width="6" height="35" />
+    <rect x="301" y="279" width="6" height="27" />
+    <rect x="312" y="268" width="6" height="38" />
+    <rect x="323" y="286" width="6" height="20" fill="#A1A1AA" />
+    <rect x="334" y="275" width="6" height="31" />
+  </g>
+  <line x1="352" y1="266" x2="352" y2="310" stroke="#26262E" stroke-width="1" stroke-dasharray="2,2" />
+  <!-- 3 Inverse Checksum Chains -->
+  <rect x="364" y="266" width="14" height="40" fill="#FFFFFF" />
+  <rect x="384" y="274" width="14" height="32" fill="#FFFFFF" />
+  <rect x="404" y="270" width="14" height="36" fill="#FFFFFF" />
+  <text x="364" y="319" fill="#A1A1AA" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9">CSUM[0..2]</text>
+  <text x="48" y="319" fill="#71717A" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="9">MSG CHAINS [00..63]</text>
+
+  <!-- COLD vs HOT Tier Isolation Box -->
+  <rect x="36" y="338" width="400" height="126" rx="6" fill="#0B0B0E" stroke="#26262E" stroke-width="1" />
+  <text x="48" y="358" fill="#FFFFFF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="700">STRICT TIER ISOLATION POLICY</text>
+
+  <rect x="48" y="368" width="376" height="40" rx="4" fill="#141418" stroke="#26262E" stroke-width="1" />
+  <text x="58" y="384" fill="#FFFFFF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="700">COLD TIER #0</text>
+  <text x="158" y="384" fill="#A1A1AA" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11">FsXQjSeb...Qemu</text>
+  <text x="58" y="400" fill="#71717A" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10">dApp blind-sign: FORBIDDEN | OTS spend auto-rotates to #1</text>
+
+  <rect x="48" y="416" width="376" height="40" rx="4" fill="#141418" stroke="#26262E" stroke-width="1" />
+  <text x="58" y="432" fill="#FFFFFF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="700">HOT TIER #0</text>
+  <text x="158" y="432" fill="#A1A1AA" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11">4hWMbca3...dKu3</text>
+  <text x="58" y="448" fill="#71717A" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10">dApp signing: GUARDED | sticky ATA &amp; SVM floor ratchet</text>
+
+  <!-- Right Panel: Static Binary Solana Firewall -->
+  <rect x="468" y="76" width="432" height="404" rx="8" fill="#141418" stroke="#26262E" stroke-width="1" />
+  <text x="484" y="102" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="700" letter-spacing="0.4">SOLANA WIRE FIREWALL // 10 STATIC RULES (&lt;150us)</text>
+  <line x1="484" y1="114" x2="884" y2="114" stroke="#26262E" stroke-width="1" />
+
+  <!-- Audit Card 1: SystemProgram::Assign -->
+  <rect x="484" y="126" width="400" height="88" rx="6" fill="#0B0B0E" stroke="#26262E" stroke-width="1" />
+  <text x="498" y="146" fill="#FFFFFF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="700">IX #0 :: SystemProgram::Assign (disc = 1)</text>
+  <rect x="794" y="133" width="78" height="20" rx="3" fill="#141418" stroke="#26262E" stroke-width="1" />
+  <text x="833" y="147" text-anchor="middle" fill="#FFFFFF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700">BLOCKED</text>
+  <text x="498" y="166" fill="#A1A1AA" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10">Attempted wallet owner hijack -&gt; 9xQeWvG816bU...u2h</text>
+  <text x="498" y="184" fill="#E4E4E7" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10">rule: RULE_01_NO_SYSTEM_ASSIGN</text>
+  <text x="498" y="202" fill="#71717A" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10">decode + inspect latency: 68.4 us (0 RPC calls)</text>
+
+  <!-- Audit Card 2: SPL-Token::SetAuthority -->
+  <rect x="484" y="224" width="400" height="88" rx="6" fill="#0B0B0E" stroke="#26262E" stroke-width="1" />
+  <text x="498" y="244" fill="#FFFFFF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="700">IX #3 :: SPL-Token::SetAuthority (disc = 6)</text>
+  <rect x="794" y="231" width="78" height="20" rx="3" fill="#141418" stroke="#26262E" stroke-width="1" />
+  <text x="833" y="245" text-anchor="middle" fill="#FFFFFF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700">BLOCKED</text>
+  <text x="498" y="264" fill="#A1A1AA" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10">AuthorityType::AccountOwner (2) -&gt; 7dHbWXmci3dT...9pK</text>
+  <text x="498" y="282" fill="#E4E4E7" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10">rule: RULE_02_NO_SET_AUTHORITY</text>
+  <text x="498" y="300" fill="#71717A" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10">also blocks: Approve, AdvanceNonce, 0x80 signMessage</text>
+
+  <!-- Audit Card 3: On-Chain Balance-Floor Guard -->
+  <rect x="484" y="322" width="400" height="96" rx="6" fill="#0B0B0E" stroke="#26262E" stroke-width="1" />
+  <text x="498" y="342" fill="#FFFFFF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="700">EXTERNAL CPI :: SVM BALANCE-FLOOR INJECTOR</text>
+  <rect x="794" y="329" width="78" height="20" rx="3" fill="#141418" stroke="#26262E" stroke-width="1" />
+  <text x="833" y="343" text-anchor="middle" fill="#E4E4E7" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700">GUARDED</text>
+  <text x="498" y="362" fill="#A1A1AA" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10">Appends atomic round-trip floor + ATA self-transfer + Revoke</text>
+  <text x="498" y="380" fill="#FFFFFF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10">post_balance(4hWMbc...) &gt;= 4,499,950,000 lamports</text>
+  <text x="498" y="398" fill="#71717A" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10">Validator reverts entire tx if 1 lamport below floor</text>
+
+  <!-- Bottom Loopback RPC Footer -->
+  <rect x="484" y="428" width="400" height="36" rx="6" fill="#0B0B0E" stroke="#26262E" stroke-width="1" />
+  <text x="498" y="450" fill="#A1A1AA" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10">RPC: http://127.0.0.1:8788 | Header: X-QSafe-Auth-Token (256b)</text>
+</svg>
